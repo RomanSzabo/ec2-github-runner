@@ -69,6 +69,10 @@ inputs:
     description: >-
       Specifies bash commands to run before the runner starts. It's useful for installing dependencies with apt-get, yum, dnf, etc.
     required: false
+  base-url:
+    description: >- 
+      Specifies GitHub base url, useful in case of GitHub Enterprise
+    required: false
 
 outputs:
   label:
